@@ -1,0 +1,62 @@
+/*desktop view*/
+body{
+	padding: 5%;
+	background-color: bisque;
+}
+.parent{
+	margin: 5%;
+	padding: 4%;
+	display:flex;
+	justify-content: space-around;
+}
+.child{
+	background-color: yellow;
+    margin:3%;
+    padding: 3%;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 4px blue;/*default color-->black*/
+}
+img{
+	height: 50%;
+	width: 50%;
+	border-radius: 5%;
+}
+img:hover{
+   box-shadow: 4px 4px 4px 4px ;
+   background-color: blue;
+}
+.child:hover{
+	background-color:#D9B5E3;
+	box-shadow: 4px 4px 4px 4px red inset;
+}
+/*mobile view*/
+@media only screen and (min-width:320px) and (max-width: 600px){
+	body{
+	background-color:bisque;
+}
+.parent{
+background-color: skyblue;
+	display:inline-block;
+	border-radius: 5%;
+	margin: 2%;
+	width:96%;
+}
+.child{
+	width: 93%;
+	margin: 3%;
+}
+}
+/*tablet view*/
+@media only screen and (min-width: 720px) and (max-width: 1024px){
+.parent{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding:5%;
+}
+.child{
+	width:35%;
+	margin: 1%;
+}
+}
