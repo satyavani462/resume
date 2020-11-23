@@ -1,0 +1,46 @@
+{
+	"details":{
+		"name":"Cheruku.Satyavani",
+		"image":"profile2.jpg",
+		"email":"ch.satya@gmail.com",
+		"number":"9999888877",
+		"address":"Rajahmundry,East Godavari,Andhra Pradesh"
+	},
+	"careerobjective":{
+		"info":"Self-motivated and Hardworking fresher seeking for an Opportunity to work in a challenging environment to prove my skills and utilize my Knowledge and Intelligence in the growth of the Organization."
+	},
+	"educationalqualifications":[
+		{
+			"institute":"andhra university vishakapatnam",
+			"degree":"btech",
+			"passoutyear":"2021",
+			"percentage":"85%"
+		},
+		{
+			"institute":"srichaitanya",
+			"degree":"intermediate",
+			"passoutyear":"2016",
+			"percentage":"95%"
+		},
+		{
+			"institute":"s.k.v.t",
+			"degree":"ssc",
+			"passoutyear":"2014",
+			"percentage":"98%"
+		}
+	],
+	"technicalskills":[
+		{
+			"title":"Programming Languages",
+			"info":["c,c++,python"]
+		},
+		{
+			"title":"DataBase",
+			"info":["sqlite3,oracle,mysql,MongoDB,Tinydb"]
+		},
+		{
+			"title":"Operating System",
+			"info":["windows","linux","ubuntu","dos"]
+		}
+	]
+}
