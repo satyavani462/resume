@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+body {
+  background-color: #FBF3A9;
+  padding: 20px;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+img{
+  height: 50%;
+  width:40%;
+}
+h1 {
+  background-color:#A29D9E;
+  font-size: 50px;
+  text-align: center;
+  padding: 2%;
+  margin: 1%;
+}
+.row {
+  margin: 8px -16px;
+}
+.column {
+  float: left;
+  width: 35%;
+}
+
+@media only screen and (min-width: 320px) and (max-width:600px) {
+  body{
+    padding: 5%;
+  }
+  .parent{
+  display:inline-block;
+  border-radius: 5%;
+  margin: 2%;
+  width:94%;
+}
+ .column{
+ width: 93%;
+  margin: 3%;
+ }
+}
+@media only screen and (min-width: 720px) and (max-width: 1024px){
+.parent{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:5%;
+}
+.column{
+  width:35%;
+  margin: 1%;
+}
+img{
+  height: 20%;
+  width: 45%;
+}
+}
+
+</style>
+</head>
+<body>
+
+<h1>MYRESUME</h1>
+<div class="parent">
+  <div class="column">
+      <img src="myphoto.jpg" class="rounded" alt="MyPhoto">
+      <h5>Name :   cheruku satyavani</h5>
+      <h5>Contact : 8897987842</h5>
+      <h5>EmailId : ch.satyavani2001@gmail.com</h5>
+      <h5>Address : East Godavari,Andhra Pradesh</h5>
+      GitHub :<a href="https://github.com/satyavani462/resume" target="_blank">mygit profile</a>
+  </div>
+  <div  class="column">
+      <h3 style="color: blue">CAREER OBJECTIVES</h3>
+      <p>Self-motivated and Hardworking fresher seeking for an Opportunity to work in a challenging environment to prove my skills and utilize my Knowledge and Intelligence in the growth of the Organization</p>
+
+      <h3 style="color: blue">EDUCATION</h3>
+      <table class="table table-striped table-hover table-bordered">
+      <tr class="text-dark table-primary">
+      <th>YEAR OF PASSING</th>
+      <th>COURSE</th>
+      <th>CGPA</th>
+    </tr>
+      <tr class="table-danger">
+        <td>2017</td>
+        <td>SSC(S.K.V.T (E.M) High School,Rajahmundry)</td>
+        <td>10.0</td>
+      </tr>
+      <tr class="table-danger">
+        <td>2019</td>
+        <td>Board Of Intermediate(M.P.C)
+        (Sri Chaitanya Junior College,Rajahmundry)</td>
+        <td>10.0</td>
+      </tr>
+  </table>
+  <h3 style="color: blue">TECHNICAL SKILLS</h3>
+  <ul>
+    <li>Packages:DCA(Microsoft Word, Microsoft Excel, Microsoft PowerPoint)</li>
+    <li>C</li>
+    <li>DS</li>
+    <li>Python</li>
+    <li>Django</li>
+    <li>Html,CSS.Bootstrap</li>
+  </ul>
+  <h3 style="color: blue">ACHIEVEMENTS</h3>
+  <ul>
+    <li>Certified From C language</li>
+    <li>Second at state level spell bee competition</li>
+  </ul>
+  <h3 style="color: blue">DECLARATION</h3>
+  <p>I solemnly declare that all the above furnished information is free from errors to the best of my knowledge and belief.</p>
+    </div>
+  </div>
+</body>
+</html>
